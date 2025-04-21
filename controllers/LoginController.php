@@ -45,3 +45,4 @@ if (isset($_POST['usuario'], $_POST['password'])) {
     echo "Por favor completa ambos campos.";
 }
 ?>
+
