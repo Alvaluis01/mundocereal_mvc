@@ -42,8 +42,8 @@ if (!isset($_SESSION['usuario'])) {
         <p>No hay productos registrados.</p>
     <?php endif; ?>
 
-    <br>
-    <a href="inventario.php"><button>Volver</button></a>
+    <!-- Corrección aquí -->
+    <a href="/mundocereal_mvc/views/inventario.php"><button>Volver</button></a>
 </div>
 </body>
 </html>

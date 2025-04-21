@@ -23,12 +23,11 @@ if (!isset($_SESSION['usuario'])) {
         Cantidad: <input type="number" name="cantidad" required><br>
         Fecha de Caducidad: <input type="date" name="fechaCaducidad" required><br>
         Lote: <input type="text" name="lote" required><br>
-        ID Inventario: <input type="number" name="id_inventario" required><br>
         <button type="submit">Agregar</button>
     </form>
 
     <br>
-    <a href="inventario.php"><button>Volver</button></a>
+    <a href="./inventario.php"><button>Volver</button></a>
 </div>
 </body>
 </html>

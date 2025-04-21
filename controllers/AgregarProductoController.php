@@ -16,8 +16,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $fechaCaducidad = $_POST['fechaCaducidad'];
     $lote = $_POST['lote'];
 
-    $stmt = $conexion->prepare("INSERT INTO product (nombre, precioUnitario, cantidad, fechaCaducidad, lote, id_inventario) VALUES (?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param("sdissi", $nombre, $precioUnitario, $cantidad, $fechaCaducidad, $lote, $id_inventario);
+    $stmt = $conexion->prepare("INSERT INTO product (nombre, precioUnitario, cantidad, fechaCaducidad, lote) VALUES (?, ?, ?, ?, ?)");
+    $stmt->bind_param("sdiss", $nombre, $precioUnitario, $cantidad, $fechaCaducidad, $lote);
 
     if ($stmt->execute()) {
         header("Location: ../views/inventario.php");

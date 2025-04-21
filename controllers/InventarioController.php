@@ -27,4 +27,3 @@ if ($accion === 'ver') {
 Conexion::desconectar();
 ?>
 
-
