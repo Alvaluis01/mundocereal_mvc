@@ -15,7 +15,6 @@
     <h3>Selecciona una opción:</h3>
     <a href="agregar_producto.php"><button>Agregar Producto</button></a>
     <a href="../controllers/InventarioController.php?accion=ver"><button>Ver Inventario</button></a>
-    <a href="dailyform.php"><button>DailyForm</button></a>
     <a href="./admin_dashboard.php"><button>Volver</button></a>
 </div>
 </body>
